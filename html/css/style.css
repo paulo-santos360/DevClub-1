@@ -1,0 +1,80 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+    top: 71px;
+}
+
+.destaque{
+    display: flex;
+    justify-content: space-between;
+}
+
+.area1{
+    width: 49%;
+}
+
+.area2{
+    width: 44%;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.destaque p{
+    font-size: 20px;
+}
+
+H1{
+    color: green;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid green;
+    position: relative;
+    top: 0;
+}
+
+H2{
+    color: green;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid green;
+}
+
+h3{
+    color: green;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+    border-bottom: 3px solid green;
+}
+
+h4{
+    color: green;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+
+.amigos ol li{
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+
+.area-social{
+    margin-top: 30px;
+}
+
+.area-social a{
+    color: green;
+    font-size: 20px;
+    margin-right: 10px;
+}
