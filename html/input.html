@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>input</title>
+  </head>
+  <style>
+    .container{
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 100px;
+    }
+    .label{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+  </style>
+  <body>
+    <!--Autocomplete disabled readonly autofocus -->
+    <div class="container">
+      <form action="">
+        <label for="">Digite Seu Nome: </label><br>
+        <input
+          autocomplete=""
+          type="text"
+          id="text"
+          name="text"
+          placeholder="Digite seu Nome: "
+        />
+        <label for="">Digite Seu Email: </label><br>
+        <input
+          autocomplete=""
+          type="email"
+          id="email"
+          name="text"
+          placeholder="Digite seu Nome: "
+        />
+        <label for="">Digite Seu Email: </label><br>
+        <input
+          autocomplete=""
+          type="number"
+          id="number"
+          name="number"
+          placeholder="Digite seu Numero: "
+        />
+        <label for="">Escolha sua Data: </label><br>
+        <input autocomplete="" type="date" id="date" name="date" />
+        <label for=""></label>
+        <textarea name="" id="" cols="30" rows="10"></textarea><br>
+        <input type="color" name="" id=""><br>
+        <input type="range" min="0" max="100" value="50">
+        <input type="image" src="./img/foto.jpeg" alt="" width="100"><br>
+      </form>
+    </div>
+  </body>
+</html>
