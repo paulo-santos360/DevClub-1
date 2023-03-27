@@ -65,7 +65,7 @@ h4{
 
 .amigos ol li{
     font-size: 20px;
-    margin-top: 30px;
+    margin-top: 20px;
 }
 
 
@@ -77,4 +77,12 @@ h4{
     color: green;
     font-size: 20px;
     margin-right: 10px;
+}
+
+img{
+    width: 400px;
+    height: 400px;
+    margin-top: 20px;
+    border-radius: 50%;
+    position: relative;
 }
