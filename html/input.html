@@ -8,17 +8,30 @@
   </head>
   <style>
     .container{
-        width: 50%;
-        margin: 0 auto;
+        width: 80%;
         margin-top: 100px;
+        margin: 0 auto;
     }
-    .form{
-        width: 40%;
-        border: 1px solid red;
+    form{
+        width: 80%;
+        margin: 0 auto;
+        padding: 10px 104px;
     }
-    .label{
-        width: 100%;
-        margin-bottom: 20px;
+
+    label{
+        color: blue;
+        font-size: 20px;
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin-top: 10px;
+        padding-top: 10px;
+    }
+    input{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        align-content: center;
+        margin: 0 auto;
+        padding: 0px 10px;
     }
   </style>
   <body>
@@ -34,7 +47,7 @@
           id="text"
           name="text"
           placeholder="Digite seu Nome: "
-        />
+        /><br>
         <label for="">Digite Seu Email: </label><br>
         <input
           autocomplete=""
@@ -42,14 +55,14 @@
           id="email"
           name="text"
           placeholder="Digite seu Nome: "
-        />
+        /><br>
         <label for="">Digite sua Senha: </label><br>
         <input
           autocomplete=""
           type="password"
           id="password"
           name="password"
-        />
+        /><br>
         <label for="">Digite sua Senha: </label><br>
         <input
           autocomplete=""
@@ -57,29 +70,31 @@
           id="file"
           name="file"
         /><br>
+        <div>
         <label for="">Digite seu Sexo: </label><br>
-        <br>
-        <label for="">Outros</label>
+        
+      
         <input
           autocomplete=""
           type="radio"
           id="outros"
           name=""
         />
-        <label for="">Homen</label>
+       
         <input
           autocomplete=""
           type="radio"
           id="homen"
           name="sexo"
         />
-        <label for="">Mulher</label>
+        
         <input
           autocomplete=""
           type="radio"
           id="mulher"
           name="sexo"
-        /><br>
+        />
+    </div><br>
         <label for="">Digite Seu Email: </label><br>
         <input
           autocomplete=""
@@ -87,9 +102,9 @@
           id="number"
           name="number"
           placeholder="Digite seu Numero: "
-        />
+        /><br>
         <label for="">Escolha sua Data: </label><br>
-        <input autocomplete="" type="date" id="date" name="date" />
+        <input autocomplete="" type="date" id="date" name="date" /><br>
         <label for=""></label>
         <textarea name="" id="" cols="30" rows="10"></textarea><br>
         <input type="color" name="" id=""><br>
